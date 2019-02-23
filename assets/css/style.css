@@ -1,0 +1,155 @@
+/*homework-bio-index*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header{
+    height:60px;
+    background-color:#ffffff;
+    margin-top:0px;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+#wrapper{
+    width:960px;
+    height:800px;
+    margin:0px auto;
+    background-color:#ffffff;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.box1{
+    width:940px;
+    height:60px;
+    margin:0px auto;
+    background-color:#ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.box2{
+    width:180px;
+    height:60px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    line-height:60px;
+    float:left;
+}
+
+#nav{
+    width:250px;
+    height:60px;
+    line-height:60px;
+    float:right;
+}
+
+h2{
+    text-align:center;
+}
+
+h3{
+    color:#4aaaa5;
+    font-size:25px;
+    margin:18px;
+    padding-top:18px;
+}
+
+li{
+    color:#666666;
+    font-size:15px;
+    list-style-type:none;
+    line-height:60px;
+    float:right;
+    margin-right:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#666666;
+}
+
+hr{
+    margin:16px;
+    background-color:#cccccc;
+}
+
+.profile{
+    width:200px;
+    height:200px;
+    margin:5px 20px 10px 15px;
+    float:left;
+}
+
+p{
+    color:#666666;
+    font-size:15px;
+    line-height:25px;
+    margin:10px 30px 10px 20px;
+    font-family:Arial, Helvetica, sans-serif   
+}
+
+.pic{
+    height:200px;
+    width:220px;
+}
+
+.part-set{
+    
+  margin:20px 1.5%;
+  width: 30%;
+  position:relative;
+}
+
+.part{
+    margin:0 auto;
+    width:700px;
+    
+    float:left;
+    position: absolute;
+    
+}
+
+.part1{
+    left:20px;
+}
+
+.part2{
+    left:260px;
+}
+
+.part3{
+    left:20px;
+    top:220px;
+}
+
+.part4{
+    left:260px;
+    top:220px;
+}
+
+.part5{
+    left:20px;
+    top:440px;
+}
+
+
+.footer p{
+    background-color:#666666;
+    height:50px;
+    clear:both;
+    margin:0 auto;
+    border-top:3px solid #4aaaa5;
+    color:#cccccc;
+    text-align: center;
+    line-height:50px;
+    font-size:10px;
+
+}
