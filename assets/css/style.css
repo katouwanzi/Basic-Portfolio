@@ -1,4 +1,5 @@
-/*homework-bio-index*/
+/*basic*/
+
 *{
     padding:0;
     margin:0;
@@ -46,11 +47,15 @@ header{
     width:250px;
     height:60px;
     line-height:60px;
-    float:right;
+    position: relative;
+    float: right;
+    text-align: center;
 }
+
 
 h2{
     text-align:center;
+    font-family:Georgia', Times, Times New Roman, serif;
 }
 
 h3{
@@ -58,6 +63,7 @@ h3{
     font-size:25px;
     margin-left:18px;
     padding-top:18px;
+    font-family:Georgia', Times, Times New Roman, serif;
 }
 
 li{
@@ -74,6 +80,29 @@ a{
     text-decoration: none;
     color:#666666;
 }
+
+a:hover {
+    outline: 1px solid #4aaaa5;
+    outline-offset: 10px;
+  }
+
+footer{
+    background-color:#666666;
+    height:50px;
+    display:block;
+    margin:0 auto;
+    border-top:8px solid #4aaaa5;
+    clear:both;
+    position:fixed;
+    bottom:0;
+    width:100%; 
+    text-align: center;
+    line-height:50px;
+    font-size:10px;
+    color:#cccccc;
+}
+
+/*homework-bio-index*/
 
 hr{
     margin:16px;
@@ -94,6 +123,8 @@ p{
     margin:10px 30px 10px 20px;
     font-family:Arial, Helvetica, sans-serif   
 }
+
+/*Portfolio*/
 
 .pic{
     height:200px;
@@ -118,23 +149,43 @@ td{
     padding:10px;
 }
 
+/*Contact Page*/
 
-
-footer{
-    background-color:#666666;
-    height:50px;
-    display:block;
-    margin:0 auto;
-    border-top:3px solid #4aaaa5;
-    clear:both;
-    position:fixed;
-    bottom:0;
-    width:100%; 
+form{
+    margin-left:18px;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-h6{
-    text-align: center;
-    line-height:50px;
-    font-size:10px;
-    color:#cccccc;
+input[type=text]{
+    width:98.5%;
+    padding:5px;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 8px 0;
+    opacity: 0.5;
+}
+
+textarea{
+    width:98.5%;
+    padding:5px;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 8px 0  15px 0;
+    opacity: 0.5;
+    height:200px;
+    border-color:lightgray;
+}
+ 
+label{
+    display:block;
+    margin-top:15px;
+}
+
+input[type=submit]{
+    padding:8px 22px 8px 22px;
+    background-color:#4aaaa5;
+    font-size:15px;
+    color:white;
+    margin-bottom:20px;
 }
